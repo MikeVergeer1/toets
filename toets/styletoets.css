@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    background-color: darkgray;
+    border-bottom: solid white 2px;
+}
+
+a:link{
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color:gray
+}
+
+.container {
+    position: relative;
+   
+}
+.center {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color:white
+}
+
+img { 
+    display: flex;
+    width: 50%;
+    height: 300px;
+    filter: grayscale(100%);
+}
+
+.overmij{
+    position: absolute;
+    top: 12%;
+    left: 52%;
+    padding-right: 20px;
+    font-size: 18px;
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+}

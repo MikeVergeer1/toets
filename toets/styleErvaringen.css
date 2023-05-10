@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    background-color:darkgray;
+    border-bottom: solid white 2px;
+}
+
+a:link{
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color:gray
+}
+
+.container {
+    position: relative;
+   
+}
+
+.image{
+    display: flex;
+    width: 49%;
+    height: auto;
+    flex-direction: row;
+}
+.bit {
+    display: flex;
+    width: 49%;
+    height: auto;
+    flex-direction: row;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 49%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
